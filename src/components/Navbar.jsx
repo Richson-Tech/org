@@ -2,15 +2,14 @@ import React from "react";
 import Link from "next/link";
 import Menu from "./Menu";
 
-
-
 const Navbar = () => {
   return (
-    <div className="h-20 w-full text-black flex flex-row px-3 md:flex-row items-center justify-between md:h-24 lg:px-20 xl:px-40">
+    <div className="bg-amber-400 h-20 w-full text-black flex flex-row px-3 md:flex-row items-center justify-between md:h-24 lg:px-20 xl:px-40">
       {/* LEFT SIDE */}
-      <div className="flex md:hidden gap-4">
+      <div className="bg-amber-400 flex flex-col md:hidden gap-4">
         {/* LOGO */}
-        <h1>LOGO</h1>
+        <h1>CSBG</h1>
+        <p>COMMUNITY SERVICE BLOCK GRANT</p>
       </div>
       <h1 className="hidden md:block">LOGO</h1>
       <div className="hidden md:flex gap-4 flex-1 items-center justify-center">
