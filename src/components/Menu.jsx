@@ -6,12 +6,10 @@ import { CgMenu } from "react-icons/cg";
 import { MdOutlineClose } from "react-icons/md";
 
 const links = [
-  { id: 1, title: "Homepage", url: "/" },
-  { id: 2, title: "Investing", url: "/investing" },
-  { id: 3, title: "Banking", url: "/banking" },
-  { id: 4, title: "Earning", url: "/earning" },
-  { id: 4, title: "Learning", url: "/learning" },
-  { id: 4, title: "Pricing", url: "/pricing" },
+  { id: 1, title: "Home", url: "/" },
+  { id: 2, title: "Services", url: "/services" },
+  { id: 3, title: "About", url: "/about" },
+  { id: 4, title: "Contact", url: "/contact" }
 ];
 
 const Menu = () => {
