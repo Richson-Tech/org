@@ -1,28 +1,3 @@
-// "use client";
-
-// import React, { useState } from "react";
-// import Link from "next/link";
-// import { CgMenu } from "react-icons/cg";
-// import { MdOutlineClose } from "react-icons/md";
-
-// const links = [
-//   { id: 1, title: "Home", url: "/" },
-//   { id: 2, title: "Services", url: "/services" },
-//   { id: 3, title: "About", url: "/about" },
-//   { id: 4, title: "Contact", url: "/contact" }
-// ];
-
-// const Menu = () => {
-//   const [open, setOpen] = useState(false);
-
-//   return (
-//     <div>
-    
-//     </div>
-//   );
-// };
-
-// export default Menu;
 "use client";
 
 import React, { useState } from "react";
