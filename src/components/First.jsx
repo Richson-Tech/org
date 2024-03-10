@@ -3,9 +3,9 @@ import React from 'react'
 
 const First = () => {
   return (
-    <div className='bg-blue-700 h-80'>
+    <div className='bg-blue-700 h-96'>
         <h4 className='text-4xl pt-10 pl-16 text-white'>Our Services</h4>
-        <div className='flex flex-col'>
+        <div className='flex flex-col pb-0'>
         <Image
               src="/1.jpeg"
               alt="grants"
