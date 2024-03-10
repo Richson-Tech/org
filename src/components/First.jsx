@@ -3,7 +3,7 @@ import React from "react";
 
 const First = () => {
   return (
-    <div className="bg-blue-700 h-96">
+    <div className="bg-blue-700 h-max pb-32">
       <div className="flex flex-col pb-0">
         <Image
           src="/1.jpeg"
