@@ -8,8 +8,8 @@ const Navbar = () => {
       {/* LEFT SIDE */}
       <div className="bg-amber-400 flex flex-col md:hidden gap-4">
         {/* LOGO */}
-        <h1>CSBG</h1>
-        <p>COMMUNITY SERVICE BLOCK GRANT</p>
+        <h1 className="text-2xl font-bold">CSBG</h1>
+        <p className="text-[#757575] text-sm">COMMUNITY SERVICE BLOCK GRANT</p>
       </div>
       <h1 className="hidden md:block">LOGO</h1>
       <div className="hidden md:flex gap-4 flex-1 items-center justify-center">

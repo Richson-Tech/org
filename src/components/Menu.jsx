@@ -18,9 +18,9 @@ const Menu = () => {
   return (
     <div>
       {open ? (
-        <MdOutlineClose size="2rem" onClick={() => setOpen(false)} />
+        <MdOutlineClose className="text-white" size="2rem" onClick={() => setOpen(false)}  />
       ) : (
-        <CgMenu size="2rem" onClick={() => setOpen(true)} />
+        <CgMenu className="text-white" size="2rem" onClick={() => setOpen(true)} />
       )}
 
       {open && (
