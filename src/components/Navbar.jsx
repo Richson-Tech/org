@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
       {/* Right Side - Hidden on Small Screens */}
       <div className="hidden md:flex items-center justify-center space-x-3">
-        <button className="bg-[#79C947] text-white px-3 py-3 rounded-full hidden md:block">
+        <button className="bg-blue-700 text-white px-3 py-3 rounded-full hidden md:block">
           Get Started
         </button>
       </div>
