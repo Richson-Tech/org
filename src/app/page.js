@@ -1,4 +1,4 @@
-import Do from "@/components/Do";
+import Do from "@/components/Num";
 import First from "@/components/First";
 
 export default function Home() {
