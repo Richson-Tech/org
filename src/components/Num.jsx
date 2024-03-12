@@ -141,7 +141,36 @@ const Num = () => {
           height={295}
           className="object-center object-cover p-5"
         />
-        <h2 className="text-4xl text-[#111518] pl-5 font">Performance Management Framework</h2>
+        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold">
+          Performance Management Framework
+        </h2>
+        <p>CSBG State and Tribal Plans are due September 1, 2023.</p>
+        <p>
+          The State Plan Toolkit conCSBG tains state submission guidance,
+          including the most recent communications, OLDC step-by-step guides and
+          manuals, current OMB approved forms, fillable forms, webinars, and
+          training demos.
+        </p>
+        <p>
+          CSBG-AT-2023-07 Tribal Plan Application FY 2024 contains tribal
+          submission guidance, including plan requirements, a fillable tool, and
+          training and technical support information.
+        </p>
+        <p>Remember to check CSBG Events for upcoming events.</p>
+        <Image
+          src="/impact.png"
+          alt="CSBG"
+          width={435}
+          height={295}
+          className="object-center object-cover p-5"
+        />
+        <h2>Project Impact Grant Recipients</h2>
+        <p>
+          Project Impact grants help organizations prepare for and respond to
+          the economic and social effects of COVID-19. For more information and
+          to view grant recipient abstracts, click Project Impact Grant
+          Recipients.
+        </p>
       </div>
     </div>
   );
