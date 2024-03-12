@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import numeral from 'numeral';
 import { AiOutlineStock } from "react-icons/ai";
-import { RiTeamFill } from "react-icons/ri";
+import { RiTeamFill,RiSettings2Fill } from "react-icons/ri";
+
 
 const Num = () => {
   const [currentNumber, setCurrentNumber] = useState(0);
