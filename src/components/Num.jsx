@@ -436,19 +436,19 @@ const Num = () => {
             allowFullScreen
             className="p-5"
           ></iframe>
-          <video
-            width="320"
-            height="240"
-            controls
-            autoPlay
-            className="rounded"
-           
-          >
+          <video width="320" height="240" controls autoPlay className="rounded">
             <source src="video.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
-      <Maps/>
+      <Maps />
+      <div className="bg-[#11BF97] flex flex-col p-12 text-white">
+        <h6 className="text-black font-bold text-xl text-center">Contact Us</h6>
+        <p className="pt-5 pb-8 text-center text-xl font-[roboto]">phone: (781)2691505</p>
+        <p className="pt-2 pb-3 text-center text-xl font-[roboto]">Need help or have a question?</p>
+        <p className="pt-2 pb-3 text-center text-xl font-[roboto]">Contact us at:</p>
+        <p className="pt-2 pb-3 text-center text-xl font-[roboto]">support@c-s-b-g.org</p>
+      </div>
     </div>
   );
 };
