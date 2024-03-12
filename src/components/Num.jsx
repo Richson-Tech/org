@@ -431,9 +431,9 @@ const Num = () => {
     height="315"
     src="https://www.youtube.com/embed/FMPVcWSOuHo?si=RYfLlpAV-5GJusYv"
     title="YouTube video player"
-    frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
+    className="p-5"
   ></iframe>
 </div>
 
