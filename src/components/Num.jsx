@@ -199,43 +199,41 @@ const Num = () => {
           CSBG Fact Sheet
         </h2>
         <h5 className="text-lg text-[#757575] pb-5 font-serif pl-2 font-semibold">COMMUNITY SERVICES BLOCK GRANT (CSBG)</h5>
-        <h6 className="text-lg text-[#757575] pb-5 font-serif pl-2 font-semibold">Purpose:</h6>
-        <p>
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Purpose:</h6>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
           To support services and activities for individuals and families with
           low incomes that alleviate the causes and conditions of poverty in
           communities.
         </p>
-        <h6>
-          To support services and activities for individuals and families with
-          low incomes that alleviate the causes and conditions of poverty in
-          communities.
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">
+        Legislative Authority:
         </h6>
-        <p>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
           Community Opportunities, Accountability, and Training and Educational
           Services Human Services Reauthorization Act of 1998, P.L. 105-285
         </p>
-        <h6>Appropriations:</h6>
-        <p>In FY 2022, Block Grant: $755 million</p>
-        <p>In FY 2021, Block Grant: $745 million</p>
-        <p>In FY 2020, Block Grant: $740 million</p>
-        <p>
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Appropriations:</h6>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">In FY 2022, Block Grant: $755 million</p>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">In FY 2021, Block Grant: $745 million</p>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">In FY 2020, Block Grant: $740 million</p>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
           In FY 2020, Coronavirus Aid, Relief, and Economic Security (CARES) Act
           Supplemental: $1 billion
         </p>
-        <h6>Eligible Applicants:</h6>
-        <p>
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Eligible Applicants:</h6>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
           States, the District of Columbia, the Commonwealth of Puerto Rico,
           U.S. territories (America Samoa, Guam, Northern Mariana Islands, and
           Virgin Islands), and federally recognized tribes and tribal
           organizations.
         </p>
-        <h6>Target Population:</h6>
-        <p>
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Target Population:</h6>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
           Individuals and families with low incomes as well as low-income
           communities.
         </p>
-        <h6>Uses:</h6>
-        <p>
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Uses:</h6>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
           Block Grants — States receive funds according to a statutory formula.
           In turn, states fund a network of local eligible entities with 90
           percent of their CSBG grant award. These local eligible entities
@@ -258,10 +256,10 @@ const Num = () => {
           effectively addressing the needs of families and individuals with low
           income and low-income communities.
         </p>
-        <h6>Type of Grant:</h6>
-        <p>Block and Discretionary Grants</p>
-        <h6>Program Requirements:</h6>
-        <p>
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Type of Grant:</h6>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">Block and Discretionary Grants</p>
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Program Requirements:</h6>
+        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
           States must pass through no less than 90 percent of the CSBG grant
           award. Of the remaining 10 percent, states can use up to five percent
           for administrative costs and the remaining funds for projects that
@@ -269,7 +267,18 @@ const Num = () => {
           conduct a full on-site review of each local entity at least once every
           three years.
         </p>
-        <h6>Program Highlights:</h6>
+        <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Program Highlights:</h6>
+        <div className="prose">
+      <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
+        <li>Directly funds approximately 66 tribes and tribal organizations.</li>
+        <li>Approximately 1,007 eligible entities provide CSBG-funded services to 99 percent of the country.</li>
+        <li>In FY 2020, CSBG received additional funding in the amount of $1 billion under the Coronavirus Aid, Relief, and Economic Security (CARES) Act to respond to Coronavirus Disease 2019 (COVID-19) related needs, such as providing COVID vaccinations, personal protective equipment (PPE), and COVID testing.</li>
+        <li>In FY 2021, CSBG funded 16 organizations across the U.S. that will spend 15 months exploring how the service models used to respond to the COVID-19 pandemic can be strengthened and adapted to meet ongoing and future community needs.</li>
+        <li>In FY 2021, CSBG hosted their first annual CSBG Tribal Network Annual Meeting, an event that contributed to a 50 percent increase in tribal leadership participation in CSBG activities.</li>
+        <li>Preliminary data indicates that CSBG grant recipients served 9.5 million individuals and 4.8 million families, in FY 2020. Of those served, 11 percent were between ages 0 — 5, 22 percent were children between the ages of 6 — 17, and 23 percent were persons 55 years of age and older.</li>
+        <li>Over the last several years, OCS and the CSBG Network — comprised of CSBG eligible entities, state CSBG Lead Agencies, State Community Action Agency Associations, national training and technical assistance partners, and others — collaborated to create a new Performance Management Framework to increase effectiveness and accountability across federal, state, and local entities.</li>
+      </ul>
+    </div>
       </div>
     </div>
   );
