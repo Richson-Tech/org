@@ -5,6 +5,7 @@ import { AiOutlineStock } from "react-icons/ai";
 import { RiTeamFill, RiSettings2Fill } from "react-icons/ri";
 import { MdPeople } from "react-icons/md";
 import Image from "next/image";
+import Maps from "./Maps";
 
 const Num = () => {
   const [currentNumber, setCurrentNumber] = useState(0);
@@ -73,7 +74,7 @@ const Num = () => {
   }, [lastNumber]); // Re-run the effect when the lastNumber changes
 
   return (
-    <div className="bg-slate-100 h-max pb-96 w-full">
+    <div className="bg-slate-100 h-max pb-10 w-full">
       <div className="bg-white h-max w-4/5 ml-10 flex flex-col mb-5 pb-20">
         <div className="pt-10 pl-10 pb-5">
           <AiOutlineStock className="text-blue-600" size="2rem" />
@@ -447,6 +448,7 @@ const Num = () => {
           </video>
         </div>
       </div>
+      <Maps/>
     </div>
   );
 };
