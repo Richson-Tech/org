@@ -73,27 +73,27 @@ const Num = () => {
   }, [lastNumber]); // Re-run the effect when the lastNumber changes
 
   return (
-<div className="bg-white h-max w-full">
-       <div className="flex flex-col mb-5">
-         <div>
+<div className="bg-slate-200 h-max w-full">
+       <div className="bg-white h-max w-4/5 ml-10 flex flex-col mb-5">
+         <div className='pt-10'>
            <AiOutlineStock className="text-blue-600" size="2rem" />
            <h1 className='text-3xl font-bold'>{numeral(currentNumber).format('0,0')}</h1>
-           <h6>Years Of Experience</h6>
+           <h6 className='text-xl'>Years Of Experience</h6>
          </div>
          <div>
          <RiTeamFill className="text-blue-600" size="2rem" />
          <h1 className='text-3xl font-bold'>{numeral(rightNumber).format('0,0')}</h1>
-         <h6>Team amaembers</h6>
+         <h6 className='text-xl'>Team amaembers</h6>
          </div>
          <div>
          <RiSettings2Fill className="text-blue-600" size="2rem" />
-         <h1>{numeral(leftNumber).format('0,0')}K</h1>
-         <h6>Hours Of Maintenance</h6>
+         <h1 className='text-3xl font-bold'>{numeral(leftNumber).format('0,0')}K</h1>
+         <h6 className='text-xl'>Hours Of Maintenance</h6>
          </div>
          <div>
          <MdPeople className="text-blue-600" size="2rem" />
-         <h1>{numeral(lastNumber).format('0,0')}K</h1>
-         <h6>Happy Client</h6>
+         <h1 className='text-3xl font-bold'>{numeral(lastNumber).format('0,0')}K</h1>
+         <h6 className='text-xl'>Happy Client</h6>
          </div>
        </div>
      </div>
