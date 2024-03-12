@@ -4,6 +4,7 @@ import numeral from 'numeral';
 import { AiOutlineStock } from "react-icons/ai";
 import { RiTeamFill,RiSettings2Fill } from "react-icons/ri";
 import { MdPeople } from "react-icons/md";
+import Image from 'next/image';
 
 
 const Num = () => {
@@ -73,8 +74,8 @@ const Num = () => {
   }, [lastNumber]); // Re-run the effect when the lastNumber changes
 
   return (
-<div className="bg-slate-200 h-max w-full">
-       <div className="bg-white h-max w-4/5 ml-10 flex flex-col mb-5">
+<div className="bg-slate-100 h-max pb-96 w-full">
+       <div className="bg-white h-max w-4/5 ml-10 flex flex-col mb-5 pb-20">
          <div className='pt-10 pl-10 pb-5'>
            <AiOutlineStock className="text-blue-600" size="2rem" />
            <h1 className='text-3xl font-bold pt-2 pb-1'>{numeral(currentNumber).format('0,0')}</h1>
@@ -83,7 +84,7 @@ const Num = () => {
          <div className='pt-10 pl-10 pb-5'> 
          <RiTeamFill className="text-blue-600" size="2rem" />
          <h1 className='text-3xl font-bold pt-2 pb-1'>{numeral(rightNumber).format('0,0')}</h1>
-         <h6 className='text-xl'>Team amaembers</h6>
+         <h6 className='text-xl'>Team Members</h6>
          </div>
          <div className='pt-10 pl-10 pb-5'>
          <RiSettings2Fill className="text-blue-600" size="2rem" />
@@ -95,6 +96,17 @@ const Num = () => {
          <h1 className='text-3xl font-bold pt-2 pb-1'>{numeral(lastNumber).format('0,0')}K</h1>
          <h6 className='text-xl'>Happy Client</h6>
          </div>
+       </div>
+       <div className='pt-20'>
+        <p className='pl-5'>Current of: November 14, 2024</p>
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          width={135}
+          height={195}
+          className="object-center object-cover p-5"
+        />
+
        </div>
      </div>
   );
