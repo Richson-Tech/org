@@ -423,18 +423,19 @@ const Num = () => {
           alt="grants"
           width={435}
           height={295}
-          className="object-center object-cover p-5"
+          className="object-center object-cover mb-5"
         />
-        <video
-          width="320"
-          height="240"
-          controls
-          autoPlay
-          className="rounded"
-          onEnded={handleVideoEnded}
-        >
-          <source src="couple.mp4" type="video/mp4" />
-        </video>
+        <div className="flex flex-col items-center justify-center h-screen">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/FMPVcWSOuHo?si=RYfLlpAV-5GJusYv"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
