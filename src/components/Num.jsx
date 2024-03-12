@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import numeral from 'numeral';
 import { AiOutlineStock } from "react-icons/ai";
 import { RiTeamFill,RiSettings2Fill } from "react-icons/ri";
+import { MdPeople } from "react-icons/md";
 
 
 const Num = () => {
@@ -76,19 +77,23 @@ const Num = () => {
        <div className="flex flex-col mb-5">
          <div>
            <AiOutlineStock className="text-blue-600" size="2rem" />
-           <h1>{numeral(currentNumber).format('0,0')}</h1>
+           <h1 className='text-3xl font-bold'>{numeral(currentNumber).format('0,0')}</h1>
+           <h6>Years Of Experience</h6>
          </div>
          <div>
          <RiTeamFill className="text-blue-600" size="2rem" />
-         <h1>{numeral(rightNumber).format('0,0')}</h1>
+         <h1 className='text-3xl font-bold'>{numeral(rightNumber).format('0,0')}</h1>
+         <h6>Team amaembers</h6>
          </div>
          <div>
-         <RiTeamFill className="text-blue-600" size="2rem" />
+         <RiSettings2Fill className="text-blue-600" size="2rem" />
          <h1>{numeral(leftNumber).format('0,0')}K</h1>
+         <h6>Hours Of Maintenance</h6>
          </div>
          <div>
-         <RiTeamFill className="text-blue-600" size="2rem" />
+         <MdPeople className="text-blue-600" size="2rem" />
          <h1>{numeral(lastNumber).format('0,0')}K</h1>
+         <h6>Happy Client</h6>
          </div>
        </div>
      </div>
