@@ -113,7 +113,7 @@ const Num = () => {
           height={195}
           className="object-center object-cover p-5"
         />
-        <p className="pt-2 text-center p-2">
+        <p className="pt-2 text-center p-2 text-[#757575]">
           The Community Services Block Grant (CSBG) is a federally funded block
           grant in the Office of Community Services, Administration for Children
           and Families, United States Department of Health and Human Services
@@ -141,22 +141,22 @@ const Num = () => {
           height={295}
           className="object-center object-cover p-5"
         />
-        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold">
+        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">
           Performance Management Framework
         </h2>
-        <p>CSBG State and Tribal Plans are due September 1, 2023.</p>
-        <p>
+        <p className="pt-2 text-center p-2 text-[#757575]">CSBG State and Tribal Plans are due September 1, 2023.</p>
+        <p className="pt-2 text-center p-2 text-[#757575]">
           The State Plan Toolkit conCSBG tains state submission guidance,
           including the most recent communications, OLDC step-by-step guides and
           manuals, current OMB approved forms, fillable forms, webinars, and
           training demos.
         </p>
-        <p>
+        <p className="pt-2 text-center p-2 text-[#757575]">
           CSBG-AT-2023-07 Tribal Plan Application FY 2024 contains tribal
           submission guidance, including plan requirements, a fillable tool, and
           training and technical support information.
         </p>
-        <p>Remember to check CSBG Events for upcoming events.</p>
+        <p className="pt-2 text-center p-2 text-[#757575]">Remember to check CSBG Events for upcoming events.</p>
         <Image
           src="/impact.png"
           alt="CSBG"
@@ -164,8 +164,8 @@ const Num = () => {
           height={295}
           className="object-center object-cover p-5"
         />
-        <h2>Project Impact Grant Recipients</h2>
-        <p>
+        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">Project Impact Grant Recipients</h2>
+        <p className="pt-2 text-center p-2 text-[#757575]">
           Project Impact grants help organizations prepare for and respond to
           the economic and social effects of COVID-19. For more information and
           to view grant recipient abstracts, click Project Impact Grant
@@ -178,12 +178,13 @@ const Num = () => {
           height={295}
           className="object-center object-cover p-5"
         />
-        <h2>Need Help Finding Assistance?</h2>
-        <p>
+        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">Need Help Finding Assistance?</h2>
+        <p className="pt-2 text-center p-2 text-[#757575]">
           Looking for housing, employment, education, utility, or emergency
           assistance? Click Find Your CAA to find CSBG-funded Community Action
           Agencies (CAAs) in your area.
         </p>
+        <p className="pt-2 text-center p-2 text-[#757575]">Tribal members, click CSBG Tribal Grantees</p>
       </div>
     </div>
   );
