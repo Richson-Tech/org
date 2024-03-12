@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Inter, Actor, Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Top from "@/components/Top";

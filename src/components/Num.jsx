@@ -141,6 +141,7 @@ const Num = () => {
           height={295}
           className="object-center object-cover p-5"
         />
+        <h2 className="text-4xl text-[#111518] pl-5 font">Performance Management Framework</h2>
       </div>
     </div>
   );
