@@ -419,24 +419,33 @@ const Num = () => {
           className="object-center object-cover p-5"
         />
         <div className="flex flex-col items-center justify-center">
-  <Image
-    src="/30.jpeg"
-    alt="grants"
-    width={435}
-    height={295}
-    className="object-center object-cover p-5 mb-2"
-  />
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/FMPVcWSOuHo?si=RYfLlpAV-5GJusYv"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen
-    className="p-5"
-  ></iframe>
-</div>
-
+          <Image
+            src="/30.jpeg"
+            alt="grants"
+            width={435}
+            height={295}
+            className="object-center object-cover p-5 mb-2"
+          />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/FMPVcWSOuHo?si=RYfLlpAV-5GJusYv"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            className="p-5"
+          ></iframe>
+          <video
+            width="320"
+            height="240"
+            controls
+            autoPlay
+            className="rounded"
+           
+          >
+            <source src="video.mp4" type="video/mp4" />
+          </video>
+        </div>
       </div>
     </div>
   );
