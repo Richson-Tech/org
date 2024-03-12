@@ -144,7 +144,9 @@ const Num = () => {
         <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">
           Performance Management Framework
         </h2>
-        <p className="pt-2 text-center p-2 text-[#757575]">CSBG State and Tribal Plans are due September 1, 2023.</p>
+        <p className="pt-2 text-center p-2 text-[#757575]">
+          CSBG State and Tribal Plans are due September 1, 2023.
+        </p>
         <p className="pt-2 text-center p-2 text-[#757575]">
           The State Plan Toolkit conCSBG tains state submission guidance,
           including the most recent communications, OLDC step-by-step guides and
@@ -156,7 +158,9 @@ const Num = () => {
           submission guidance, including plan requirements, a fillable tool, and
           training and technical support information.
         </p>
-        <p className="pt-2 text-center p-2 text-[#757575]">Remember to check CSBG Events for upcoming events.</p>
+        <p className="pt-2 text-center p-2 text-[#757575]">
+          Remember to check CSBG Events for upcoming events.
+        </p>
         <Image
           src="/impact.png"
           alt="CSBG"
@@ -164,7 +168,9 @@ const Num = () => {
           height={295}
           className="object-center object-cover p-5"
         />
-        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">Project Impact Grant Recipients</h2>
+        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">
+          Project Impact Grant Recipients
+        </h2>
         <p className="pt-2 text-center p-2 text-[#757575]">
           Project Impact grants help organizations prepare for and respond to
           the economic and social effects of COVID-19. For more information and
@@ -178,13 +184,17 @@ const Num = () => {
           height={295}
           className="object-center object-cover p-5"
         />
-        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">Need Help Finding Assistance?</h2>
+        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">
+          Need Help Finding Assistance?
+        </h2>
         <p className="pt-2 text-center p-2 text-[#757575]">
           Looking for housing, employment, education, utility, or emergency
           assistance? Click Find Your CAA to find CSBG-funded Community Action
           Agencies (CAAs) in your area.
         </p>
-        <p className="pt-2 text-center p-2 text-[#757575]">Tribal members, click CSBG Tribal Grantees</p>
+        <p className="pt-2 text-center p-2 text-[#757575]">
+          Tribal members, click CSBG Tribal Grantees
+        </p>
       </div>
     </div>
   );
