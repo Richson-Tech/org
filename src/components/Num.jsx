@@ -75,22 +75,22 @@ const Num = () => {
   return (
 <div className="bg-slate-200 h-max w-full">
        <div className="bg-white h-max w-4/5 ml-10 flex flex-col mb-5">
-         <div className='pt-10'>
+         <div className='pt-10 pl-10 pb-5'>
            <AiOutlineStock className="text-blue-600" size="2rem" />
-           <h1 className='text-3xl font-bold'>{numeral(currentNumber).format('0,0')}</h1>
+           <h1 className='text-3xl font-bold pt-2'>{numeral(currentNumber).format('0,0')}</h1>
            <h6 className='text-xl'>Years Of Experience</h6>
          </div>
-         <div>
+         <div className='pt-10 pl-10 pb-5'> 
          <RiTeamFill className="text-blue-600" size="2rem" />
          <h1 className='text-3xl font-bold'>{numeral(rightNumber).format('0,0')}</h1>
          <h6 className='text-xl'>Team amaembers</h6>
          </div>
-         <div>
+         <div className='pt-10 pl-10 pb-5'>
          <RiSettings2Fill className="text-blue-600" size="2rem" />
          <h1 className='text-3xl font-bold'>{numeral(leftNumber).format('0,0')}K</h1>
          <h6 className='text-xl'>Hours Of Maintenance</h6>
          </div>
-         <div>
+         <div className='pt-10 pl-10 pb-5'>
          <MdPeople className="text-blue-600" size="2rem" />
          <h1 className='text-3xl font-bold'>{numeral(lastNumber).format('0,0')}K</h1>
          <h6 className='text-xl'>Happy Client</h6>
