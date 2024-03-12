@@ -129,16 +129,16 @@ const Num = () => {
         </p>
         <Image
           src="/17.png"
-          alt="Logo"
-          width={135}
-          height={195}
+          alt="CSBG"
+          width={435}
+          height={295}
           className="object-center object-cover p-5"
         />
         <Image
           src="/18.png"
-          alt="Logo"
-          width={135}
-          height={195}
+          alt="CSBG"
+          width={435}
+          height={295}
           className="object-center object-cover p-5"
         />
       </div>
