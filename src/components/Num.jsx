@@ -269,16 +269,17 @@ const Num = () => {
         </p>
         <h6 className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">Program Highlights:</h6>
         <div className="prose">
-      <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-3 pr-3">
-        <li>Directly funds approximately 66 tribes and tribal organizations.</li>
-        <li>Approximately 1,007 eligible entities provide CSBG-funded services to 99 percent of the country.</li>
-        <li>In FY 2020, CSBG received additional funding in the amount of $1 billion under the Coronavirus Aid, Relief, and Economic Security (CARES) Act to respond to Coronavirus Disease 2019 (COVID-19) related needs, such as providing COVID vaccinations, personal protective equipment (PPE), and COVID testing.</li>
-        <li>In FY 2021, CSBG funded 16 organizations across the U.S. that will spend 15 months exploring how the service models used to respond to the COVID-19 pandemic can be strengthened and adapted to meet ongoing and future community needs.</li>
-        <li>In FY 2021, CSBG hosted their first annual CSBG Tribal Network Annual Meeting, an event that contributed to a 50 percent increase in tribal leadership participation in CSBG activities.</li>
-        <li>Preliminary data indicates that CSBG grant recipients served 9.5 million individuals and 4.8 million families, in FY 2020. Of those served, 11 percent were between ages 0 — 5, 22 percent were children between the ages of 6 — 17, and 23 percent were persons 55 years of age and older.</li>
-        <li>Over the last several years, OCS and the CSBG Network — comprised of CSBG eligible entities, state CSBG Lead Agencies, State Community Action Agency Associations, national training and technical assistance partners, and others — collaborated to create a new Performance Management Framework to increase effectiveness and accountability across federal, state, and local entities.</li>
-      </ul>
-    </div>
+  <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3">
+    <li>Directly funds approximately 66 tribes and tribal organizations.</li>
+    <li>Approximately 1,007 eligible entities provide CSBG-funded services to 99 percent of the country.</li>
+    <li>In FY 2020, CSBG received additional funding in the amount of $1 billion under the Coronavirus Aid, Relief, and Economic Security (CARES) Act to respond to Coronavirus Disease 2019 (COVID-19) related needs, such as providing COVID vaccinations, personal protective equipment (PPE), and COVID testing.</li>
+    <li>In FY 2021, CSBG funded 16 organizations across the U.S. that will spend 15 months exploring how the service models used to respond to the COVID-19 pandemic can be strengthened and adapted to meet ongoing and future community needs.</li>
+    <li>In FY 2021, CSBG hosted their first annual CSBG Tribal Network Annual Meeting, an event that contributed to a 50 percent increase in tribal leadership participation in CSBG activities.</li>
+    <li>Preliminary data indicates that CSBG grant recipients served 9.5 million individuals and 4.8 million families, in FY 2020. Of those served, 11 percent were between ages 0 — 5, 22 percent were children between the ages of 6 — 17, and 23 percent were persons 55 years of age and older.</li>
+    <li>Over the last several years, OCS and the CSBG Network — comprised of CSBG eligible entities, state CSBG Lead Agencies, State Community Action Agency Associations, national training and technical assistance partners, and others — collaborated to create a new Performance Management Framework to increase effectiveness and accountability across federal, state, and local entities.</li>
+  </ul>
+</div>
+
       </div>
     </div>
   );
