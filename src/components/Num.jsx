@@ -195,6 +195,16 @@ const Num = () => {
         <p className="pt-2 text-center p-2 text-[#757575]">
           Tribal members, click CSBG Tribal Grantees
         </p>
+        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">
+          CSBG Fact Sheet
+        </h2>
+        <h5>COMMUNITY SERVICES BLOCK GRANT (CSBG)</h5>
+        <h6>Purpose:</h6>
+        <p>
+          To support services and activities for individuals and families with
+          low incomes that alleviate the causes and conditions of poverty in
+          communities.
+        </p>
       </div>
     </div>
   );
