@@ -171,6 +171,19 @@ const Num = () => {
           to view grant recipient abstracts, click Project Impact Grant
           Recipients.
         </p>
+        <Image
+          src="/news.jpeg"
+          alt="CSBG"
+          width={435}
+          height={295}
+          className="object-center object-cover p-5"
+        />
+        <h2>Need Help Finding Assistance?</h2>
+        <p>
+          Looking for housing, employment, education, utility, or emergency
+          assistance? Click Find Your CAA to find CSBG-funded Community Action
+          Agencies (CAAs) in your area.
+        </p>
       </div>
     </div>
   );
