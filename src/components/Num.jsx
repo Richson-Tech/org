@@ -195,16 +195,81 @@ const Num = () => {
         <p className="pt-2 text-center p-2 text-[#757575]">
           Tribal members, click CSBG Tribal Grantees
         </p>
-        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">
+        <h2 className="text-4xl text-[#111518] pl-5 font-[roboto] pt-16 font-bold pb-5">
           CSBG Fact Sheet
         </h2>
-        <h5>COMMUNITY SERVICES BLOCK GRANT (CSBG)</h5>
-        <h6>Purpose:</h6>
+        <h5 className="text-lg text-[#757575] pb-5 font-serif pl-2 font-semibold">COMMUNITY SERVICES BLOCK GRANT (CSBG)</h5>
+        <h6 className="text-lg text-[#757575] pb-5 font-serif pl-2 font-semibold">Purpose:</h6>
         <p>
           To support services and activities for individuals and families with
           low incomes that alleviate the causes and conditions of poverty in
           communities.
         </p>
+        <h6>
+          To support services and activities for individuals and families with
+          low incomes that alleviate the causes and conditions of poverty in
+          communities.
+        </h6>
+        <p>
+          Community Opportunities, Accountability, and Training and Educational
+          Services Human Services Reauthorization Act of 1998, P.L. 105-285
+        </p>
+        <h6>Appropriations:</h6>
+        <p>In FY 2022, Block Grant: $755 million</p>
+        <p>In FY 2021, Block Grant: $745 million</p>
+        <p>In FY 2020, Block Grant: $740 million</p>
+        <p>
+          In FY 2020, Coronavirus Aid, Relief, and Economic Security (CARES) Act
+          Supplemental: $1 billion
+        </p>
+        <h6>Eligible Applicants:</h6>
+        <p>
+          States, the District of Columbia, the Commonwealth of Puerto Rico,
+          U.S. territories (America Samoa, Guam, Northern Mariana Islands, and
+          Virgin Islands), and federally recognized tribes and tribal
+          organizations.
+        </p>
+        <h6>Target Population:</h6>
+        <p>
+          Individuals and families with low incomes as well as low-income
+          communities.
+        </p>
+        <h6>Uses:</h6>
+        <p>
+          Block Grants — States receive funds according to a statutory formula.
+          In turn, states fund a network of local eligible entities with 90
+          percent of their CSBG grant award. These local eligible entities
+          include, but are not limited to, local governments, migrant and
+          seasonal farm worker organizations, tribes and tribal organizations,
+          and Community Action Agencies (CAAs). The local entities provide
+          services and activities addressing employment, education, income and
+          asset building services, housing, nutrition, emergency services,
+          and/or healthcare based on community needs assessments conducted by
+          the local entities. Examples of services provided include child/young
+          adult education programs (such as Summer Education Programs and
+          College-Readiness Preparation/Support), adult education programs (such
+          as adult literacy classes and financial literacy education),
+          transportation services, utility payments, and emergency hygiene
+          assistance (such as kits and boxes). Discretionary Grants — A small
+          portion of funds are reserved to support technical assistance and
+          monitoring efforts of CSBG. Eligible applicants include statewide or
+          local organizations, or associations with demonstrated expertise in
+          providing training to individuals and organizations on methods of
+          effectively addressing the needs of families and individuals with low
+          income and low-income communities.
+        </p>
+        <h6>Type of Grant:</h6>
+        <p>Block and Discretionary Grants</p>
+        <h6>Program Requirements:</h6>
+        <p>
+          States must pass through no less than 90 percent of the CSBG grant
+          award. Of the remaining 10 percent, states can use up to five percent
+          for administrative costs and the remaining funds for projects that
+          support the statutory goals of CSBG. States are also required to
+          conduct a full on-site review of each local entity at least once every
+          three years.
+        </p>
+        <h6>Program Highlights:</h6>
       </div>
     </div>
   );
