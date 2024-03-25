@@ -132,7 +132,13 @@ Promote individual economic opportunity and security through the creation of ful
 <li>
 Support asset building strategies for individuals and families with low-incomes, such as savings, increasing financial capability, and securing assets;
 </li>
-
+<li>
+Assist community development corporations in utilizing existing funding for neighborhood revitalization projects;
+</li>
+<li>
+Provide financial and technical resources to state, local, and public and private agencies for economic development and related social service activities; and
+Provide energy assistance to households with low-incomes.
+</li>
 
         </ul>
       </div>
