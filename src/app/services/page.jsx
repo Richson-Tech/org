@@ -120,9 +120,7 @@ const page = () => {
           Major Goals
         </h1>
         <p>OCS’s main goals are to:</p>
-        <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3">
-
-        </ul>
+        <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3"></ul>
       </div>
     </div>
   );
