@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className="bg-blue-700 h-max w-full pb-32">
     <div className="flex flex-col pb-0">
-      <h2></h2>
+      <h2>Our Services</h2>
       <Image
         src="/01.jpeg"
         alt="grants"
@@ -63,35 +63,35 @@ const page = () => {
         className="object-center object-cover p-5"
       />
       <Image
-        src="/90.jpeg"
+        src="/09.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/100.jpeg"
+        src="/010.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/110.jpeg"
+        src="/011.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/120.jpeg"
+        src="/012.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/130.jpeg"
+        src="/013.jpeg"
         alt="grants"
         width={435}
         height={295}
