@@ -119,7 +119,10 @@ const page = () => {
         <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">
           Major Goals
         </h1>
-        <p className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center"> OCS’s main goals are to:</p>
+        <p className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">
+          {" "}
+          OCS’s main goals are to:
+        </p>
         <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3">
           <li>
             Serve the economic and social needs of individuals and families with
@@ -148,8 +151,12 @@ const page = () => {
         </ul>
       </div>
       <div>
-        <h1>Programs</h1>
-        <p>The Office of Community Services (OCS) administers seven social service and community development programs. In 2021, this totaled about $7.3 billion in funding.</p>
+        <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">Programs</h1>
+        <p>
+          The Office of Community Services (OCS) administers seven social
+          service and community development programs. In 2021, this totaled
+          about $7.3 billion in funding.
+        </p>
       </div>
     </div>
   );
