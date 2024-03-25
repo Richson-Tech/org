@@ -5,92 +5,93 @@ const page = () => {
   return (
     <div className="bg-blue-700 h-max w-full pb-32">
     <div className="flex flex-col pb-0">
+      <h2></h2>
       <Image
-        src="/1.jpeg"
+        src="/01.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/2.jpeg"
+        src="/02.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/3.jpeg"
+        src="/03.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/4.jpeg"
+        src="/04.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/5.jpeg"
+        src="/05.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/6.jpeg"
+        src="/06.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/7.jpeg"
+        src="/07.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/8.jpeg"
+        src="/08.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/9.jpeg"
+        src="/90.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/10.jpeg"
+        src="/100.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/11.jpeg"
+        src="/110.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/12.jpeg"
+        src="/120.jpeg"
         alt="grants"
         width={435}
         height={295}
         className="object-center object-cover p-5"
       />
       <Image
-        src="/13.jpeg"
+        src="/130.jpeg"
         alt="grants"
         width={435}
         height={295}
