@@ -147,6 +147,10 @@ const page = () => {
           </li>
         </ul>
       </div>
+      <div>
+        <h1>Programs</h1>
+        <p>The Office of Community Services (OCS) administers seven social service and community development programs. In 2021, this totaled about $7.3 billion in funding.</p>
+      </div>
     </div>
   );
 };
