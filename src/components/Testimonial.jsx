@@ -8,7 +8,7 @@ const Testimonial = () => {
         Testimonial
       </h1>
       <div className="flex flex-col">
-        <div className="bg-slate-50 rounded">
+        <div className="bg-slate-50 w-67 rounded">
           <div className="pt-5">
             <Image
               src="/alice.webp"
