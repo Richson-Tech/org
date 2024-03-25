@@ -116,7 +116,7 @@ const page = () => {
         </p>
       </div>
       <div>
-        
+        <h1>Major Goals</h1>
       </div>
     </div>
   );
