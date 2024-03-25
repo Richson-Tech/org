@@ -1,3 +1,4 @@
+import Testimonial from "@/components/Testimonial";
 import Image from "next/image";
 import React from "react";
 
@@ -158,6 +159,7 @@ const page = () => {
           about $7.3 billion in funding.
         </p>
       </div>
+      <Testimonial/>
     </div>
   );
 };
