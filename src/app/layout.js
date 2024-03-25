@@ -2,7 +2,7 @@ import { Inter, Actor, Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Top from "@/components/Top";
-
+import Chaport from "@/components/Chaport";
 
 const inter = Inter({ subsets: ["latin"] });
 const actor = Actor({ subsets: ["latin"], weight: ["400"] });
@@ -17,10 +17,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Top/>
+        <Top />
         <Navbar />
         {children}
       </body>
+      <Chaport />
     </html>
   );
 }
