@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Testimonial = () => {
@@ -7,17 +8,18 @@ const Testimonial = () => {
         Testimonial
       </h1>
       <div className="flex flex-col">
-        <div className="bg-white rounded">
-        <Image
-          src="/alice.webp"
-          alt="grants"
-          width={435}
-          height={295}
-          className="object-center object-cover p-5"
-        />
-        <p>Alice Lee</p>
-        <p className="pt-2 text-center p-2 text-[#757575]">Tested and Trusted</p>
-
+        <div className="bg-slate-50 rounded">
+          <Image
+            src="/alice.webp"
+            alt="grants"
+            width={155}
+            height={195}
+            className="object-center object-cover pl-20 ml-20"
+          />
+          <p className="text-xl pt-2 text-center font-semibold">Alice Lee</p>
+          <p className="pt-2 text-center p-2 text-[#757575]">
+            Tested and Trusted
+          </p>
         </div>
       </div>
     </div>
