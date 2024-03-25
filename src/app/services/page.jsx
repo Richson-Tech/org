@@ -116,7 +116,7 @@ const page = () => {
         </p>
       </div>
       <div>
-        <h1>Major Goals</h1>
+        <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">Major Goals</h1>
       </div>
     </div>
   );
