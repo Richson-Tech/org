@@ -3,7 +3,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-blue-700 h-max w-full pb-32">
+    <div className="bg-blue-700 h-32 w-full pb-32">
       <div className="flex flex-col pb-0">
         <h2 className="text-4xl font-serif text-white text-center pt-10 font-normal">
           Our Services
@@ -102,15 +102,21 @@ const page = () => {
       </div>
 
       <div className="flex flex-col">
-        <h1 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">What We DO</h1>
-        <p>
-          The Office of Community Services (OCS) partners with states, tribes,
-          territories, and non-profit and community-based organizations to
-          reduce the causes and consequences of poverty, increase opportunity
-          and economic security of individuals and families, and revitalize
-          communities. Our social service and community development programs
-          work in a variety of ways to improve the lives of many.
+        <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">
+          What We DO
+        </h1>
+        <p className="pt-2 text-center p-2 text-[#757575]">
+          Current as of: November 21, 2022 The Office of Community Services
+          (OCS) partners with states, tribes, territories, and non-profit and
+          community-based organizations to reduce the causes and consequences of
+          poverty, increase opportunity and economic security of individuals and
+          families, and revitalize communities. Our social service and community
+          development programs work in a variety of ways to improve the lives of
+          many.
         </p>
+      </div>
+      <div>
+        
       </div>
     </div>
   );
