@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className="bg-blue-700 h-max w-full pb-32">
     <div className="flex flex-col pb-0">
-      <h2>Our Services</h2>
+      <h2 className='text-4xl font-serif text-white text-center pt-10 font-normal'>Our Services</h2>
       <Image
         src="/01.jpeg"
         alt="grants"
