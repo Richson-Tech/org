@@ -120,7 +120,21 @@ const page = () => {
           Major Goals
         </h1>
         <p>OCS’s main goals are to:</p>
-        <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3"></ul>
+        <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3">
+       <li>Serve the economic and social needs of individuals and families with low-incomes;
+</li>
+<li>
+Provide employment and entrepreneurial opportunities;
+</li>
+<li>
+Promote individual economic opportunity and security through the creation of full-time, permanent jobs;
+</li>
+<li>
+Support asset building strategies for individuals and families with low-incomes, such as savings, increasing financial capability, and securing assets;
+</li>
+
+
+        </ul>
       </div>
     </div>
   );
