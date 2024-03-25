@@ -15,6 +15,8 @@ const Testimonial = () => {
           height={295}
           className="object-center object-cover p-5"
         />
+        <p>Alice Lee</p>
+        <p className="pt-2 text-center p-2 text-[#757575]">Tested and Trusted</p>
 
         </div>
       </div>
