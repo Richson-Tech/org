@@ -115,10 +115,12 @@ const page = () => {
           many.
         </p>
       </div>
-      <div>
+      <div className="flex flex-col">
         <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">
           Major Goals
         </h1>
+        <p>OCS’s main goals are to:</p>
+        <p></p>
       </div>
     </div>
   );
