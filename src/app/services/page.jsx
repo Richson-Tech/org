@@ -102,7 +102,7 @@ const page = () => {
       </div>
 
       <div className="flex flex-col">
-        <h1>What We DO</h1>
+        <h1 className="text-4xl text-[#111518] pl-5 font-[roboto] font-bold pb-5">What We DO</h1>
         <p>
           The Office of Community Services (OCS) partners with states, tribes,
           territories, and non-profit and community-based organizations to
