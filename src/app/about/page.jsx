@@ -13,7 +13,7 @@ const page = () => {
         in a variety of ways to improve the lives of many.
       </p>
       <div className="flex flex-col">
-        <div className="bg-slate-50 w-30 h-36 rounded pt-2">
+        <div className="pt-2">
           <Image
             src="/kyle.webp"
             alt="grants"
@@ -22,6 +22,30 @@ const page = () => {
             className="object-center object-cover"
           />
           <p className="text-xl pt-2 text-center font-semibold">Kyle Estrada</p>
+        </div>
+      </div>
+      <div className="flex flex-col">
+        <div className="pt-2">
+          <Image
+            src="/tom.webp"
+            alt="grants"
+            width={500}
+            height={310}
+            className="object-center object-cover"
+          />
+          <p className="text-xl pt-2 text-center font-semibold">Tom Gray</p>
+        </div>
+      </div>
+      <div className="flex flex-col">
+        <div className="pt-2">
+          <Image
+            src="/randy.jpeg"
+            alt="grants"
+            width={500}
+            height={310}
+            className="object-center object-cover"
+          />
+          <p className="text-xl pt-2 text-center font-semibold">Randy Wallace</p>
         </div>
       </div>
     </div>
