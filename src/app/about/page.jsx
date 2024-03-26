@@ -12,26 +12,18 @@ const page = () => {
         communities. Our social service and community development programs work
         in a variety of ways to improve the lives of many.
       </p>
-    <div className="flex flex-col justify-center items-center">
-  <div className="bg-slate-50 w-30 h-36 rounded flex justify-center items-center pt-52">
-    <div>
-      <Image
-        src="/kyle.webp"
-        alt="grants"
-        width={500}
-        height={310}
-        className="object-center object-cover"
-      />
-    </div>
-  </div>
-</div>
-<div>
-
-  <p className="text-xl pt-2 text-center font-semibold">Kyle Estrada</p>
-</div>
-
-
-
+      <div className="flex flex-col">
+        <div className="bg-slate-50 w-30 h-36 rounded pt-52">
+          <Image
+            src="/kyle.webp"
+            alt="grants"
+            width={500}
+            height={310}
+            className="object-center object-cover"
+          />
+          <p className="text-xl pt-2 text-center font-semibold">Kyle Estrada</p>
+        </div>
+      </div>
     </div>
   );
 };
