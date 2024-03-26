@@ -45,7 +45,15 @@ const page = () => {
             height={310}
             className="object-center object-cover"
           />
-          <p className="text-xl pt-2 text-center font-semibold">Randy Wallace</p>
+          <p className="text-xl pt-2 text-center font-semibold">
+            Randy Wallace
+          </p>
+        </div>
+      </div>
+      <div>
+        <h1>We Are Here To Help</h1>
+        <div>
+          <p>304 North Cardinal St. Dorchester Center</p>
         </div>
       </div>
     </div>
