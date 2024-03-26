@@ -7,7 +7,7 @@ const Testimonial = () => {
       <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">
         Testimonial
       </h1>
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col space-y-8">
         <div className="bg-slate-50 w-67 rounded">
           <div className="pt-5">
             <Image
@@ -26,7 +26,7 @@ const Testimonial = () => {
         <div className="bg-slate-50 w-67 rounded">
           <div className="pt-5">
             <Image
-              src="/alice.webp"
+              src="/ethan.webp"
               alt="grants"
               width={155}
               height={195}
@@ -41,7 +41,7 @@ const Testimonial = () => {
         <div className="bg-slate-50 w-67 rounded">
           <div className="pt-5">
             <Image
-              src="/alice.webp"
+              src="/adam.webp"
               alt="grants"
               width={155}
               height={195}
