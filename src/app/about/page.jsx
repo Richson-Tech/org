@@ -2,7 +2,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>About page</div>
+    <div className="bg-blue-700 h-max w-full pb-32">
+
+    </div>
   )
 }
 
