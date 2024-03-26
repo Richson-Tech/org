@@ -3,7 +3,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-blue-700 h-96 w-full pb-32">
+    <div className="bg-blue-700 h-96 w-full pb-12">
       <p className="text-center p-2 pt-10 text-white">
         The Office of Community Services (OCS) partners with states, tribes,
         territories, and non-profit and community-based organizations to reduce
@@ -13,7 +13,7 @@ const page = () => {
         in a variety of ways to improve the lives of many.
       </p>
       <div className="flex flex-col">
-        <div className="bg-slate-50 w-30 h-36 rounded pt-52">
+        <div className="bg-slate-50 w-30 h-36 rounded pt-2">
           <Image
             src="/kyle.webp"
             alt="grants"
