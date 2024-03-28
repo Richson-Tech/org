@@ -51,13 +51,13 @@ const page = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-base">We Are Here To Help</h1>
+        <h1 className="text-3xl text-center pl-5 font-[roboto] font-bold pb-5 pt-16">We Are Here To Help</h1>
         <div>
-          <p>304 North Cardinal St. Dorchester Center</p>
+          <p className="pt-2 text-center p-2">304 North Cardinal St. Dorchester Center</p>
         </div>
       </div>
       <div>
-        <h1>CSBG State Plan Toolkit</h1>
+        <h1 className="text-4xl text-center pl-5 font-[roboto] font-bold pb-5 pt-16">CSBG State Plan Toolkit</h1>
         <p>Publication Date: June 12, 2023</p>
         <p>Current as of: June 14, 2023</p>
         <p>
