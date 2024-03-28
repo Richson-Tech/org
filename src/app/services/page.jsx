@@ -153,15 +153,17 @@ const page = () => {
         </ul>
       </div>
       <div>
-        <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">Programs</h1>
+        <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">
+          Programs
+        </h1>
         <p className="pt-2 text-center p-2 text-[#757575]">
           The Office of Community Services (OCS) administers seven social
           service and community development programs. In 2021, this totaled
           about $7.3 billion in funding.
         </p>
       </div>
-      <Testimonial/>
-      <Footer/>
+      <Testimonial />
+      <Footer />
     </div>
   );
 };
