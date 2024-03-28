@@ -51,7 +51,7 @@ const page = () => {
         </div>
       </div>
       <div>
-        <h1>We Are Here To Help</h1>
+        <h1 className="text-base">We Are Here To Help</h1>
         <div>
           <p>304 North Cardinal St. Dorchester Center</p>
         </div>
