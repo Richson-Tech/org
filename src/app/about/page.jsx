@@ -60,8 +60,9 @@ const page = () => {
         <h1 className="text-3xl text-center pl-5 font-[roboto] font-bold pb-5 pt-16">CSBG State Plan Toolkit</h1>
         <p className="text-[#757575] pt-2 text-center p-2">Publication Date: June 12, 2023</p>
         <p className="text-[#757575] pt-2 text-center p-2">Current as of: June 14, 2023</p>
+        
         <p className="text-[#757575] pt-2 text-center p-2">
-          Table of Contents The CSBG State Plan Toolkit is a resource for CSBG
+           The CSBG State Plan Toolkit is a resource for CSBG
           grant recipients that provides links to communications, forms and
           guidelines, webinars, and demos created by the Office of Community
           Services to aid CSBG grant recipients in the creation and submission
