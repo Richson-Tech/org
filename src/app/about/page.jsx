@@ -7,6 +7,72 @@ import { MdPeople } from "react-icons/md";
 import Image from "next/image";
 
 const page = () => {
+
+  const [currentNumber, setCurrentNumber] = useState(0);
+  const [rightNumber, setRightNumber] = useState(0);
+  const [leftNumber, setLeftNumber] = useState(0);
+  const [lastNumber, setLastNumber] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Increment the number until it reaches 20
+      if (currentNumber < 20) {
+        setCurrentNumber((prevNumber) => prevNumber + 1);
+      } else {
+        // Clear the interval when the number reaches 20
+        clearInterval(interval);
+      }
+    }, 100); // Set the interval to 100 milliseconds
+
+    // Cleanup function to clear the interval when the component is unmounted
+    return () => clearInterval(interval);
+  }, [currentNumber]); // Re-run the effect when the currentNumber changes
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Increment the number until it reaches 75
+      if (rightNumber < 75) {
+        setRightNumber((prevNumber) => prevNumber + 1);
+      } else {
+        // Clear the interval when the number reaches 75
+        clearInterval(interval);
+      }
+    }, 100); // Set the interval to 100 milliseconds
+
+    // Cleanup function to clear the interval when the component is unmounted
+    return () => clearInterval(interval);
+  }, [rightNumber]); // Re-run the effect when the rightNumber changes
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Increment the number until it reaches 20
+      if (leftNumber < 15) {
+        setLeftNumber((prevNumber) => prevNumber + 1);
+      } else {
+        // Clear the interval when the number reaches 20
+        clearInterval(interval);
+      }
+    }, 100); // Set the interval to 100 milliseconds
+
+    // Cleanup function to clear the interval when the component is unmounted
+    return () => clearInterval(interval);
+  }, [leftNumber]); // Re-run the effect when the leftNumber changes
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Increment the number until it reaches 20
+      if (lastNumber < 6) {
+        setLastNumber((prevNumber) => prevNumber + 1);
+      } else {
+        // Clear the interval when the number reaches 20
+        clearInterval(interval);
+      }
+    }, 100); // Set the interval to 100 milliseconds
+
+    // Cleanup function to clear the interval when the component is unmounted
+    return () => clearInterval(interval);
+  }, [lastNumber]); // Re-run the effect when the lastNumber changes
+
   return (
     <div className="bg-blue-700 h-96 w-full pb-12">
       <p className="text-center p-2 pt-10 text-white">
@@ -144,6 +210,36 @@ const page = () => {
             service and community development programs. In 2021, this totaled
             about $7.3 billion in funding.
           </p>
+        </div>
+      </div>
+      <div className="bg-white h-max w-4/5 ml-10 flex flex-col mb-5 pb-20">
+        <div className="pt-10 pl-10 pb-5">
+          <AiOutlineStock className="text-blue-600" size="2rem" />
+          <h1 className="text-3xl font-bold pt-2 pb-1">
+            {numeral(currentNumber).format("0,0")}
+          </h1>
+          <h6 className="text-xl">Years Of Experience</h6>
+        </div>
+        <div className="pt-10 pl-10 pb-5">
+          <RiTeamFill className="text-blue-600" size="2rem" />
+          <h1 className="text-3xl font-bold pt-2 pb-1">
+            {numeral(rightNumber).format("0,0")}
+          </h1>
+          <h6 className="text-xl">Team Members</h6>
+        </div>
+        <div className="pt-10 pl-10 pb-5">
+          <RiSettings2Fill className="text-blue-600" size="2rem" />
+          <h1 className="text-3xl font-bold pt-2 pb-1">
+            {numeral(leftNumber).format("0,0")}K
+          </h1>
+          <h6 className="text-xl">Hours Of Maintenance</h6>
+        </div>
+        <div className="pt-10 pl-10 pb-5">
+          <MdPeople className="text-blue-600" size="2rem" />
+          <h1 className="text-3xl font-bold pt-2 pb-1">
+            {numeral(lastNumber).format("0,0")}K
+          </h1>
+          <h6 className="text-xl">Happy Client</h6>
         </div>
       </div>
     </div>
