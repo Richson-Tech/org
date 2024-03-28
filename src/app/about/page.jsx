@@ -81,7 +81,7 @@ const page = () => {
       </div>
       <div className="bg-blue-700">
       <div className="flex flex-col">
-        <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">
+        <h1 className="text-4xl text-center text-white pl-5 font-[roboto] font-bold pb-5 pt-16">
           What We DO
         </h1>
         <p className="pt-2 text-center p-2 text-white">
@@ -95,14 +95,14 @@ const page = () => {
         </p>
       </div>
       <div className="flex flex-col">
-        <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">
+        <h1 className="text-4xl text-center text-white pl-5 font-[roboto] font-bold pb-5 pt-16">
           Major Goals
         </h1>
-        <p className="text-lg text-[#757575] pb-2 font-[inter] font-semibold text-center">
+        <p className="text-lg text-white pb-2 font-[inter] font-semibold text-center">
           {" "}
           OCS’s main goals are to:
         </p>
-        <ul className="list-disc text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3">
+        <ul className="list-disc text-lg text-white pb-5 font-[inter] text-center pl-5 pr-3">
           <li>
             Serve the economic and social needs of individuals and families with
             low-incomes;
@@ -130,10 +130,10 @@ const page = () => {
         </ul>
       </div>
       <div>
-        <h1 className="text-4xl text-center text-[#111518] pl-5 font-[roboto] font-bold pb-5 pt-16">
+        <h1 className="text-4xl text-center text-white pl-5 font-[roboto] font-bold pb-5 pt-16">
           Programs
         </h1>
-        <p className="pt-2 text-center p-2 text-[#757575]">
+        <p className="pt-2 text-center p-2 text-white">
           The Office of Community Services (OCS) administers seven social
           service and community development programs. In 2021, this totaled
           about $7.3 billion in funding.
