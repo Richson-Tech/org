@@ -1,5 +1,10 @@
+"use client";
+import React, { useState, useEffect } from "react";
+import numeral from "numeral";
+import { AiOutlineStock } from "react-icons/ai";
+import { RiTeamFill, RiSettings2Fill } from "react-icons/ri";
+import { MdPeople } from "react-icons/md";
 import Image from "next/image";
-import React from "react";
 
 const page = () => {
   return (
