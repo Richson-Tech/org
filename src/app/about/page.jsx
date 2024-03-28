@@ -57,8 +57,8 @@ const page = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-4xl text-center pl-5 font-[roboto] font-bold pb-5 pt-16">CSBG State Plan Toolkit</h1>
-        <p>Publication Date: June 12, 2023</p>
+        <h1 className="text-3xl text-center pl-5 font-[roboto] font-bold pb-5 pt-16">CSBG State Plan Toolkit</h1>
+        <p className="">Publication Date: June 12, 2023</p>
         <p>Current as of: June 14, 2023</p>
         <p>
           Table of Contents The CSBG State Plan Toolkit is a resource for CSBG
