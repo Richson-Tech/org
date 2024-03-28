@@ -7,7 +7,6 @@ import { MdPeople } from "react-icons/md";
 import Image from "next/image";
 
 const page = () => {
-
   const [currentNumber, setCurrentNumber] = useState(0);
   const [rightNumber, setRightNumber] = useState(0);
   const [leftNumber, setLeftNumber] = useState(0);
@@ -241,6 +240,13 @@ const page = () => {
           </h1>
           <h6 className="text-xl">Happy Client</h6>
         </div>
+      </div>
+
+      <div>
+        <h2 className="text-3xl text-center pl-5 font-[roboto] font-bold pb-5 pt-16">
+          CSBG Announces $2.1M to Bolster Supportive Services for Families
+          Living in Affordable Housing
+        </h2>
       </div>
     </div>
   );
