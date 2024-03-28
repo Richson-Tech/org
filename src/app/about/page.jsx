@@ -85,8 +85,8 @@ const page = () => {
           What We DO
         </h1>
         <p className="pt-2 text-center p-2 text-white">
-          Current as of: November 21, 2022 The Office of Community Services
-          (OCS) partners with states, tribes, territories, and non-profit and
+          Current as of: November 21, 2022 The <b> Office of Community Services
+          (OCS) </b> partners with states, tribes, territories, and non-profit and
           community-based organizations to reduce the causes and consequences of
           poverty, increase opportunity and economic security of individuals and
           families, and revitalize communities. Our social service and community
