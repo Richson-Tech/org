@@ -1,5 +1,6 @@
 import Maps from '@/components/Maps'
 import React from 'react'
+import { IoLocationSharp } from "react-icons/io5";
 
 const page = () => {
   return (
@@ -9,6 +10,9 @@ const page = () => {
           Our Services
         </h2>
         <Maps/>
+      </div>
+      <div className='flex flex-col'>
+      <IoLocationSharp className="text-blue-700 pl-2" size="2.5rem" />
       </div>
 
     </div>
