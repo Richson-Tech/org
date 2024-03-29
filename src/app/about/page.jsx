@@ -247,6 +247,15 @@ const page = () => {
           CSBG Announces $2.1M to Bolster Supportive Services for Families
           Living in Affordable Housing
         </h2>
+        <p className="text-[#757575] pt-2 text-center p-2">
+          ACF announces $2.1 million to fund a new federal program, Affordable
+          Housing and Supportive Services Demonstration, aimed at strengthening
+          and enhancing wraparound supportive services available to residents in
+          affordable housing.
+        </p>
+        <p>
+        The Office of Community Services (OCS) partners with states, tribes, territories, and non-profit and community-based organizations to reduce the causes and consequences of poverty, increase opportunity and economic security of individuals and families, and revitalize communities. Our social service and community development programs work in a variety of ways to improve the lives of many.
+        </p>
       </div>
     </div>
   );
