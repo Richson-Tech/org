@@ -5,6 +5,7 @@ import { AiOutlineStock } from "react-icons/ai";
 import { RiTeamFill, RiSettings2Fill } from "react-icons/ri";
 import { MdPeople } from "react-icons/md";
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 const page = () => {
   const [currentNumber, setCurrentNumber] = useState(0);
@@ -253,7 +254,7 @@ const page = () => {
           and enhancing wraparound supportive services available to residents in
           affordable housing.
         </p>
-        <p>
+        <p className="text-[#757575] pt-2 text-center p-2 pb-10">
           The Office of Community Services (OCS) partners with states, tribes,
           territories, and non-profit and community-based organizations to
           reduce the causes and consequences of poverty, increase opportunity
@@ -262,6 +263,7 @@ const page = () => {
           work in a variety of ways to improve the lives of many.
         </p>
       </div>
+      <Footer/>
     </div>
   );
 };
