@@ -243,7 +243,7 @@ const page = () => {
       </div>
 
       <div>
-        <h2 className="text-3xl text-center pl-5 font-[roboto] font-bold pb-5 pt-16">
+        <h2 className="text-4xl text-center pl-5 pr-3 font-[roboto] font-bold pb-5 pt-6">
           CSBG Announces $2.1M to Bolster Supportive Services for Families
           Living in Affordable Housing
         </h2>
