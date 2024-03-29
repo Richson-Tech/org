@@ -1,6 +1,7 @@
 import Maps from "@/components/Maps";
 import React from "react";
 import { IoLocationSharp } from "react-icons/io5";
+import { MdCall } from "react-icons/md";
 
 const page = () => {
   return (
@@ -28,7 +29,7 @@ const page = () => {
       </div>
       <div className="flex flex-col items-center">
         <div className="flex flex-col items-center">
-          <IoLocationSharp
+          <MdCall
             className="text-blue-700 text-center"
             size="2.5rem"
           />
@@ -47,7 +48,7 @@ const page = () => {
           <h5 className="text-2xl pt-5 pb-3 font-bold">Email Address</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
-        support@c-s-b-g.org
+          support@c-s-b-g.org
         </p>
       </div>
       <div className="flex flex-col items-center">
@@ -59,10 +60,10 @@ const page = () => {
           <h5 className="text-2xl pt-5 pb-3 font-bold">Open Hours</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
-        Monday-Saturday 8 am - 6pm
+          Monday-Saturday 8 am - 6pm
         </p>
         <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3">
-        Sunday 11am - 4pm
+          Sunday 11am - 4pm
         </p>
       </div>
     </div>
