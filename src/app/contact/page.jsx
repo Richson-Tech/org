@@ -31,10 +31,7 @@ const page = () => {
       </div>
       <div className="flex flex-col items-center">
         <div className="flex flex-col items-center">
-          <MdCall
-            className="text-blue-700 text-center"
-            size="2.5rem"
-          />
+          <MdCall className="text-blue-700 text-center" size="2.5rem" />
           <h5 className="text-2xl pt-5 pb-3 font-semibold">Phone Number</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
@@ -43,10 +40,7 @@ const page = () => {
       </div>
       <div className="flex flex-col items-center">
         <div className="flex flex-col items-center">
-          <MdEmail
-            className="text-blue-700 text-center"
-            size="2.5rem"
-          />
+          <MdEmail className="text-blue-700 text-center" size="2.5rem" />
           <h5 className="text-2xl pt-5 pb-3 font-semibold">Email Address</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
@@ -55,10 +49,7 @@ const page = () => {
       </div>
       <div className="flex flex-col items-center">
         <div className="flex flex-col items-center">
-          <IoIosTime
-            className="text-blue-700 text-center"
-            size="2.5rem"
-          />
+          <IoIosTime className="text-blue-700 text-center" size="2.5rem" />
           <h5 className="text-2xl pt-5 pb-3 font-semibold">Open Hours</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
