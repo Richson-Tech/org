@@ -263,7 +263,7 @@ const page = () => {
           work in a variety of ways to improve the lives of many.
         </p>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
