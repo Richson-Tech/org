@@ -127,7 +127,7 @@ const page = () => {
           We Are Here To Help
         </h1>
         <div className="flex flex-row">
-        <IoLocationSharp className="text-blue-700 pl-2" size="2.5rem"/>
+          <IoLocationSharp className="text-blue-700 pl-2" size="2.5rem" />
           <p className="pt-2 text-center">
             304 North Cardinal St. Dorchester Center
           </p>
