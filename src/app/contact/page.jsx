@@ -2,6 +2,8 @@ import Maps from "@/components/Maps";
 import React from "react";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdCall } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
+import { IoIosTime } from "react-icons/io";
 
 const page = () => {
   return (
@@ -18,7 +20,7 @@ const page = () => {
             className="text-blue-700 text-center"
             size="2.5rem"
           />
-          <h5 className="text-2xl pt-5 pb-3 font-bold">Physical Address</h5>
+          <h5 className="text-2xl pt-5 pb-3 font-semibold">Physical Address</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
           330 C Street, S.W.
@@ -33,7 +35,7 @@ const page = () => {
             className="text-blue-700 text-center"
             size="2.5rem"
           />
-          <h5 className="text-2xl pt-5 pb-3 font-bold">Phone Number</h5>
+          <h5 className="text-2xl pt-5 pb-3 font-semibold">Phone Number</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
           7812691505
@@ -41,11 +43,11 @@ const page = () => {
       </div>
       <div className="flex flex-col items-center">
         <div className="flex flex-col items-center">
-          <IoLocationSharp
+          <MdEmail
             className="text-blue-700 text-center"
             size="2.5rem"
           />
-          <h5 className="text-2xl pt-5 pb-3 font-bold">Email Address</h5>
+          <h5 className="text-2xl pt-5 pb-3 font-semibold">Email Address</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
           support@c-s-b-g.org
@@ -53,11 +55,11 @@ const page = () => {
       </div>
       <div className="flex flex-col items-center">
         <div className="flex flex-col items-center">
-          <IoLocationSharp
+          <IoIosTime
             className="text-blue-700 text-center"
             size="2.5rem"
           />
-          <h5 className="text-2xl pt-5 pb-3 font-bold">Open Hours</h5>
+          <h5 className="text-2xl pt-5 pb-3 font-semibold">Open Hours</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
           Monday-Saturday 8 am - 6pm
