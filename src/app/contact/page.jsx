@@ -32,7 +32,7 @@ const page = () => {
             className="text-blue-700 text-center"
             size="2.5rem"
           />
-          <h5 className="text-2xl pt-5 pb-3 font-bold">Phone Numbers</h5>
+          <h5 className="text-2xl pt-5 pb-3 font-bold">Phone Number</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
           7812691505
@@ -44,13 +44,10 @@ const page = () => {
             className="text-blue-700 text-center"
             size="2.5rem"
           />
-          <h5 className="text-2xl pt-5 pb-3 font-bold">Physical Address</h5>
+          <h5 className="text-2xl pt-5 pb-3 font-bold">Email Address</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
-          330 C Street, S.W.
-        </p>
-        <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3">
-          Washington, D.C. 20201
+        support@c-s-b-g.org
         </p>
       </div>
       <div className="flex flex-col items-center">
@@ -59,13 +56,13 @@ const page = () => {
             className="text-blue-700 text-center"
             size="2.5rem"
           />
-          <h5 className="text-2xl pt-5 pb-3 font-bold">Physical Address</h5>
+          <h5 className="text-2xl pt-5 pb-3 font-bold">Open Hours</h5>
         </div>
         <p className="text-lg text-[#757575] pb-1 font-[inter] text-center pl-5 pr-3">
-          330 C Street, S.W.
+        Monday-Saturday 8 am - 6pm
         </p>
         <p className="text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3">
-          Washington, D.C. 20201
+        Sunday 11am - 4pm
         </p>
       </div>
     </div>
