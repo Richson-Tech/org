@@ -4,6 +4,8 @@ import { IoLocationSharp } from "react-icons/io5";
 import { MdCall } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { IoIosTime } from "react-icons/io";
+import Testimonial from "@/components/Testimonial";
+import Footer from "@/components/Footer";
 
 const page = () => {
   return (
@@ -59,6 +61,8 @@ const page = () => {
           Sunday 11am - 4pm
         </p>
       </div>
+      <Testimonial />
+      <Footer />
     </div>
   );
 };
