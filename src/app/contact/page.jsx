@@ -13,9 +13,9 @@ const page = () => {
       </div>
       <div className='flex flex-col'>
       <IoLocationSharp className="text-blue-700 pl-2" size="2.5rem" />
-      <h4>Physical Address</h4>
-      <p>330 C Street, S.W.</p>
-      <p>Washington, D.C. 20201</p>
+      <h5 className='text-2xl text-center pt-10 font-bold'>Physical Address</h5>
+      <p className='text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3'>330 C Street, S.W.</p>
+      <p className='text-lg text-[#757575] pb-5 font-[inter] text-center pl-5 pr-3'>Washington, D.C. 20201</p>
       </div>
 
     </div>
