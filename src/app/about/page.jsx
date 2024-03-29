@@ -236,13 +236,13 @@ const page = () => {
         <div className="pt-10 pl-10 pb-5">
           <MdPeople className="text-blue-600" size="2rem" />
           <h1 className="text-3xl font-bold pt-2 pb-1">
-            {numeral(lastNumber).format("0,0")}K
+            {numeral(lastNumber).format("0,0")}
           </h1>
           <h6 className="text-xl">Happy Client</h6>
         </div>
       </div>
 
-      <div>
+      <div className="flex flex-col">
         <h2 className="text-4xl text-center pl-5 pr-3 font-[roboto] font-bold pb-5 pt-6">
           CSBG Announces $2.1M to Bolster Supportive Services for Families
           Living in Affordable Housing
