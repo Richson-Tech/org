@@ -6,6 +6,7 @@ import { RiTeamFill, RiSettings2Fill } from "react-icons/ri";
 import { MdPeople } from "react-icons/md";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import { IoLocationSharp } from "react-icons/io5";
 
 const page = () => {
   const [currentNumber, setCurrentNumber] = useState(0);
@@ -125,8 +126,9 @@ const page = () => {
         <h1 className="text-3xl text-center pl-5 font-[roboto] font-bold pb-5 pt-16">
           We Are Here To Help
         </h1>
-        <div>
-          <p className="pt-2 text-center p-2">
+        <div className="flex flex-row">
+        <IoLocationSharp className="text-blue-700 pl-2" size="2.5rem"/>
+          <p className="pt-2 text-center">
             304 North Cardinal St. Dorchester Center
           </p>
         </div>
