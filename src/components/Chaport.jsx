@@ -4,7 +4,8 @@ import Script from "next/script";
 
 const ChaportScript = () => {
   return (
-    <Script strategy="afterInteractive">
+    <Script id="chaport"
+      strategy="afterInteractive">
       {(function (w, d, v3) {
         w.chaportConfig = {
           appId: "65ef0f90eaefeb0970836c86",
