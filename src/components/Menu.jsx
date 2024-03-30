@@ -17,7 +17,7 @@ const Menu = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div>
+    <nav>
       {open ? (
         <MdOutlineClose
           className="text-white"
@@ -50,7 +50,7 @@ const Menu = () => {
           ))}
         </div>
       )}
-    </div>
+    </nav>
   );
 };
 
