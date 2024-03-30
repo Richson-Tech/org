@@ -8,7 +8,7 @@ import Image from "next/image";
 import Footer from "@/components/Footer";
 import { IoLocationSharp } from "react-icons/io5";
 
-const page = () => {
+const Page = () => {
   const [currentNumber, setCurrentNumber] = useState(0);
   const [rightNumber, setRightNumber] = useState(0);
   const [leftNumber, setLeftNumber] = useState(0);
@@ -270,4 +270,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
